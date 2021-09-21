@@ -1,0 +1,285 @@
+/*Common Elements*/
+body {
+    font-size: 80%;
+    font-family: Ariel, sans-serif;
+    background: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: rgb(185, 40, 40);
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color: rgb(185, 40, 40);
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+h3 {
+    color: rgb(185, 40, 40);
+    font-size: 1.5em;
+    margin: 0.5em 0 0.5em 0;
+}
+ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+ol li {
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+a, a:visited {
+    color:black
+}
+a:hover {
+    color: none;
+}
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
+/*Header*/
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: url(assets/MIT-Cancer-Modeling_0.jpg) center 0px;
+}
+header h1{
+    font-family: Ariel, sans-serif;
+    color: white;
+    font-size: 5.0em;
+    letter-spacing: -0.025em;
+    margin: 0;
+    /*text-shadow: 1px 2px 0 #bd8437; offset-x | offset-y | blur-radius | color */
+}
+header h3{
+    font-weight: 300;
+    font-size: 3.0em;
+    color: white;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+/*Nav Bar*/
+nav {
+    color: whitesmoke;
+    font-size: 1.0em;
+    letter-spacing: 0.4em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+    position: relative;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav li a:hover {
+    color: whitesmoke;
+    background-color: rgb(185, 40, 40);
+}
+nav#utilityMenu {
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: none;
+}
+/*Side Section*/
+.dropbtn {
+    background-color: rgb(185, 40, 40);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: left;
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  } 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: rgb(185, 40, 40)} 
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown:hover .dropbtn {
+    background-color: rgb(185, 40, 40);
+  }
+  section#sidebar {
+    width: 250px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: whitesmoke;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: rgb(185, 40, 40) solid 2px;
+  }
+/*Main Section*/
+section #main {
+    /*background-color: rgb(185, 40, 40;*/
+    background-color: rgb(185, 40, 40);
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px;/* offset-x | offset-y | blur-radius | color*/
+}
+#main h1 {
+    transform: translate(30%, 50%)
+}
+.panel {
+    position: relative;
+    width: 255px;
+    height: 375px;
+    margin: 2.0em 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+    display:inline-block;
+}
+div.panel img.newsType {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+.panel h2 {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    position:relative;
+}
+* {box-sizing: border-box;}
+body {font-family: Ariel, sans-serif;}
+.mySlides {display: none; text-align: center;}
+.mySlides img {
+    vertical-align: middle;
+    width: 500px;
+    height: 447px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: rgb(185, 40, 40);
+  font-size: 20px;
+  position: absolute;
+  text-align: right;
+  bottom: 10px;
+  left: 210px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 5px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 20s ease;
+  position:relative;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 20s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+/*Footer*/
+footer {
+    background-color: rgb(185, 40, 40);
+    height: 25px;
+    font-size: 1.2em;
+    color: black;
+    text-align: right;
+    padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: whitesmoke;
+    text-decoration: none
+}
+footer a:hover {
+    color: rgb(185, 40, 40);
+    text-decoration: none;
+}
