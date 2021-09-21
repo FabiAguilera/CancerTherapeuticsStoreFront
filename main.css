@@ -253,10 +253,10 @@ body {font-family: Ariel, sans-serif;}
 }
 /*Footer*/
 footer {
-    background-color: rgb(185, 40, 40);
+    background: url(assets/MIT-Cancer-Modeling_0.jpg);
     height: 25px;
     font-size: 1.2em;
-    color: black;
+    color: white;
     text-align: right;
     padding: 1.5em 2.0em;
 }
@@ -280,6 +280,6 @@ footer a, footer a:visited {
     text-decoration: none
 }
 footer a:hover {
-    color: rgb(185, 40, 40);
+    color: rgb(234, 236, 98);
     text-decoration: none;
 }
